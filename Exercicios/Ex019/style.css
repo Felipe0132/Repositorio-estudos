@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(62, 199, 199);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rebeccapurple;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(16, 80, 218);
+}
+
+.avançado {
+    color: blue;
+    font-size: 20px;
+}
+
+.basico{
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+    background-color: antiquewhite;
+}
+
+.classico{
+    background-color: red;
+}

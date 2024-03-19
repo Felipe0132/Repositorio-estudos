@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de media</title>
+</head>
+<body>
+        <h1>Imagens dinâmicas</h1>
+        <p>Tente abrir essa site em varios dispositivos</p>
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagens/Foto-P.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/Foto-M.png" type="image/png">
+            <img src="Imagens/Foto-G.png" alt="imagem flexivel">
+        </picture>
+        <h1>Reproduzindo audio</h1>
+        <p>Fazendo uma reprodução de audio</p>
+        <audio preload="metadata" controls loop>
+            <source src="Midia/HINO DO CRUZEIRO.mp3" type="audio/mpeg">
+            <source src="Midia/HINO DO CRUZEIRO.ogg" type="audio/ogg">
+            <source src="Midia/HINO DO CRUZEIRO.wav" type="audio/wav">
+            <p>Seu navegador não é compativel ao audio, baixe aqui o <a href="Midia/HINO DO CRUZEIRO.mp3">arquivo do audio</a></p>
+        </audio>
+</body>
+</html>
