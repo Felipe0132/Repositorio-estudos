@@ -12,6 +12,7 @@ header > h1 {
     padding-top: 50px;
     padding-bottom: 50px;
     font-size: 5em;
+    font-variant: small-caps;
 }
 
 nav {
@@ -25,57 +26,52 @@ nav > h2 {
     padding-bottom: 50px;
 }
 
+a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 p {
     margin-left: 15px;
-}
-
-#PT1 {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
-#PT1 > p {
     font-size: 1.5em;
 }
 
-#Bloco-de-sombra {
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section > p {
     background-color: rgba(0, 0, 0, 0.219);
-    margin-right: 55%;
+}
+
+section.imagem {
+    background-size: auto;
+    background-position: left center;
+    background-attachment: scroll;  
+    background-repeat: repeat-y;
     font-size: 1.5em;
     margin-left: 15px;
 }
 
-#PT2 {
+#fundo1 {
     padding-top: 120px;
     padding-bottom: 120px;
     color: white;
     background: url(imagens/background001.jpg);
-    background-size: auto;
-    background-position: left center;
-    background-attachment: scroll;  
-    background-repeat: repeat-y;
 }
 
-#PT3 {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
-#PT3 > p {
-    font-size: 1.5em;
-}
-
-
-#PT4 {
+#fundo2 {
     padding-top: 120px;
     padding-bottom: 120px;
     color: white;
     background: url(imagens/background002.jpg);
-    background-size: auto;
-    background-position: left center;
-    background-attachment: scroll;  
-    background-repeat: repeat-y;
-    font-size: 1.5em;
 }
 
 #Bloco-de-sombra {
@@ -90,15 +86,11 @@ p {
     padding-bottom: 120px;
 }
 
-#PT5 > p {
-    font-size: 1.5em;
-}
-
 #Creditos {
     background-color: black;
     font-size: 1.25em;
     color: white;
     text-align: center;
     margin: 0px -8px -20px;
-
+    padding-top: 10px;
 }
