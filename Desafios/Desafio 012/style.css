@@ -27,7 +27,7 @@ header > h1 {
     margin: 0px auto;
     padding-top: 50px;
     padding-bottom: 50px;
-    font-size: 6vw;
+    font-size: 10vw;
     font-variant: small-caps; /* Colocando as letras maiuscula mas as primeiras em destaque */
     font-family: var(--fonte2);
 }
@@ -58,7 +58,7 @@ a:hover {
 
 p {
     margin-left: 15px;
-    font-size: 1vw;
+    font-size: 5vw;
 }
 
 section {
@@ -67,7 +67,7 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 1vw; /* faz com que o elemento siga a proporção da vw, com o crescimento dos elementos para adaptar */
+    font-size: 5vw; /* faz com que o elemento siga a proporção da vw, com o crescimento dos elementos para adaptar */
 }
 
 section > p {
@@ -101,7 +101,7 @@ section#fundo2 {
 
 #Creditos {
     background-color: black;
-    font-size: 1.25em;
+    font-size: 5vw;
     color: white;
     text-align: center;
     margin: 0px -8px -20px;
